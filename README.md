@@ -1,32 +1,50 @@
-# React + TypeScript + Vite
+AURELLA
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Your everyday dose of pretty.
 
-Currently, two official plugins are available:
+Aurella is a fictional beauty and fragrance ecommerce website created as a frontend portfolio project. It focuses on creating a feminine, modern, and polished shopping experience for beauty and fragrance products.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
 
-## React Compiler
+* Responsive landing page
+* Product catalogue
+* Product details
+* Shopping cart
+* Wishlist
+* Customer dashboard
+* Scent discovery quiz
+* Scent layering experience
+* Interactive ecommerce UI
+* Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+* React
+* TypeScript
+* Vite
+* SCSS
+* React Router
+* React Context
+* Lucide React
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+The project currently uses mock data and is **frontend-only**, with no backend or database.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
+🖼️ Images
+
+Pinterest-sourced images are currently being used as **temporary product image placeholders** during development. These will be replaced with original or properly licensed imagery in a production version.
+
+🚧 Status
+
+Aurella is an ongoing project. The landing page and dashboard are currently completed, with additional ecommerce features being developed.
+
+🎯 Purpose
+
+Aurella was created to demonstrate frontend development skills through a realistic ecommerce application, with a strong focus on UI design, reusable components, responsive layouts, and interactive user experiences.
+
+---
+
+AURELLA — Your everyday dose of pretty.
+
 }
-```
 
 See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
