@@ -1,0 +1,2 @@
+@import url('./auth.css');
+.login-page .auth-art { background:var(--ballet); }.login-page .auth-art:before { background:var(--blush); }.login-page .auth-art-copy strong:after { content:'♡'; margin-left:14px; color:var(--gold); font-size:24px; }

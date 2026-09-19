@@ -1,0 +1,2 @@
+@import url('./auth.css');
+.register-page .auth-art { background:var(--petal); }.register-page .auth-art:before { background:var(--ballet); }.register-page .auth-art:after { background:rgba(232,166,181,.42); }.register-page .auth-art-copy strong:after { content:'✦'; margin-left:14px; color:var(--gold); font-size:24px; }
